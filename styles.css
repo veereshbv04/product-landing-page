@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;700&display=swap');
+
+:root {
+    --grey-color: =#9CA3AF;
+    --orange-color: rgb(255, 120, 9);
+}
+
+.navigation{
+    background-color:rgb(218, 214, 214);
+    width: 100%;
+    min-height: 4.5rem;
+
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    
+}
+
+.brand-name{
+    color: black;
+    text-align: left;
+    
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.list-item-non-bullet{
+    list-style: none;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.inline{
+    display: inline;
+    padding: 1rem;
+    
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(70, 68, 68);
+}
