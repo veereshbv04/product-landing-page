@@ -5,72 +5,101 @@
     --orange-color: rgb(255, 120, 9);
 }
 
-.navigation{
-    background-color:rgb(218, 214, 214);
+body {
+    font-family: sans-serif;
+}
+
+.navigation {
+    background-color: rgb(218, 214, 214);
     width: 100%;
     min-height: 4.5rem;
 
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
-    
+
 }
 
-.brand-name{
+.brand-name {
     color: black;
     text-align: left;
-    
+
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 
-.list-item-non-bullet{
+.list-item-non-bullet {
     list-style: none;
     text-align: right;
     padding-right: 1rem;
 }
 
-.inline{
+.inline {
     display: inline;
     padding: 1rem;
-    
+   
 
 }
 
-.link{
+.link {
     text-decoration: none;
     color: black;
     font-size: 1.3rem;
 }
 
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     display: block;
     max-width: 450px;
     margin: auto;
+    border-radius: .3rem;
+    box-shadow: 25px 25px 30px rgb(151, 146, 146);
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     text-align: center;
     font-size: 2rem;
     color: rgb(70, 68, 68);
+
 }
 
-p{
+p {
     text-align: center;
     padding-left: 25%;
     padding-right: 25%;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section .section-heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section .section-img{
+    display:block;
+    margin: auto;
+    min-width: 450px;
+    border-radius: 0.7rem;
+    box-shadow:25px 25px 30px rgb(151, 146, 146);
+}
+
+.list-item-non-bullet-card{
+    list-style: none;
+    text-align: center;
 }
