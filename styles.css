@@ -103,3 +103,38 @@ p {
     list-style: none;
     text-align: center;
 }
+
+.card-container{
+    height: 500px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card{
+    margin: auto;
+    width: 20rem;
+    min-width: 25%;
+}
+
+.card1{
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+    margin: 2rem;
+}
+
+.card2{
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    margin: 2rem;
+}
+
+.card3{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    margin: 2rem;
+    
+}
