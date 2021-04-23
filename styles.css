@@ -10,7 +10,7 @@ body {
 }
 
 .navigation {
-    background-color:  rgb(177, 170, 166);
+    background-color: rgb(177, 170, 166);
     width: 100%;
     min-height: 4.5rem;
     position: fixed;
@@ -147,18 +147,18 @@ p {
     }
 }
 
-.card-img{
+.card-img {
     width: 85%;
     border-radius: 2rem;
 }
 
-.btn{
+.btn {
     margin: 20%;
     align-content: center;
     /* text-align: center; */
     padding: 0 20px;
     height: 40px;
-    background-color:rgb(36, 32, 32);
+    background-color: rgb(36, 32, 32);
     font-size: 1rem;
     font-weight: 500;
     border: 0;
@@ -169,7 +169,7 @@ p {
 
 }
 
-footer{
+footer {
     margin-top: 30px;
     background-color: #ddd;
     padding: 20px;
@@ -189,4 +189,5 @@ footer span {
     font-size: 1.rem;
     color: rgb(22, 69, 223);
     margin-bottom: 20px;
+
 }
