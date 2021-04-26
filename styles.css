@@ -61,8 +61,14 @@ body {
     font-size: 1.3rem;
 }
 
+header{
+    width: 100%;
+    display: block;
+}
 .hero {
     padding: 2rem;
+    width: 100%;
+    margin: 0px;
 }
 
 .hero .hero-img {
@@ -86,6 +92,12 @@ p {
     padding-left: 25%;
     padding-right: 25%;
     max-width: 800px;
+}
+
+@media(max-height){
+    p{
+        font-size: 10px;
+    }
 }
 
 .section {
@@ -175,24 +187,23 @@ p {
 }
 
 footer {
-    margin-top: 30px;
-    background-color: #ddd;
-    padding: 20px;
-}
-
-footer ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1rem;
+    /* padding-top: 2rem; */
+    /* width: 100%;
+    height: 15vh; */
+    display: block;
+    background-color: rgb(189, 180, 179);
+    text-align: center;
     font-size: 1.5rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
 }
 
-footer span {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-    font-size: 1.rem;
-    color: rgb(22, 69, 223);
-    margin-bottom: 20px;
+.link {
+    text-decoration: none;
+}
 
+#email {
+    color: rgb(116, 37, 161);
 }
