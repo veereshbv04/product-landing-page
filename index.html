@@ -16,29 +16,31 @@
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <!-- <h2>@navigation bar</h2> -->
-    <nav id="nav-bar" class="navigation  container nav-pills ">
-        <div class="nav-brand">Brand Name</div>
-        <ul class="list-item-non-bullet">
-            <li class="inline">
-                <a class="link" href="#">Home</a>
-            </li>
-            <li class="inline">
-                <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="inline">
-                <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="inline">
-                <a class="nav-link" href="#">Benefits</a>
-            </li>
-        </ul>
-    </nav>
+  
     <!-- <hr> -->
 
     <!-- <h2>@header</h2> -->
     <header id="header" class="hero">
 
-        <h3 class="hero-heading container">The Future of tech is here</h3>
+        <nav id="nav-bar" class="navigation  container nav-pills ">
+            <div class="nav-brand">Brand Name</div>
+            <ul class="list-item-non-bullet">
+                <li class="inline">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <!-- <li class="inline">
+                    <a class="nav-link" href="#">About Us</a>
+                </li> -->
+                <li class="inline">
+                    <a class="nav-link" href="#product">Product</a>
+                </li>
+                <li class="inline">
+                    <a class="nav-link" href="#benefits">Benefits</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h3 class="hero-heading container" id="home">The Future of tech is here</h3>
         <p>Every Apple event attracts a lot of attention, but the launch of the 2020 MacBook Air, MacBook Pro, and Mac
             Mini was about more than new features and sleek industrial design. This year, the big news is hidden deep
             inside the anodized aluminum chassis of new MacBooks, in the form of the Apple M1 System on a Chip (SoC),
@@ -50,9 +52,13 @@
 
     <!-- <h2>@section</h2> -->
 
+    <section>
+        <iframe  id="video" src="https://youtu.be/JdBYVNuky1M"></iframe>
+    </section>
+
     <!-- <h2>@white section</h2> -->
     <section class="section">
-        <h3 class="section-heading">THE PRODUCT</h3>
+        <h3 class="section-heading" id="product">THE PRODUCT</h3>
         <p>This year, the big news is hidden deep inside the anodized aluminum chassis of new MacBooks, in the form of
             the Apple M1 System on a Chip (SoC), which is replacing Intel processors in 13-inch MacBooks and the Mac
             Mini.</p>
@@ -115,7 +121,7 @@
 
     <!-- <h2>@white section 2</h2> -->
     <section class="section">
-        <h3 class="section-heading">THE BENEFITS </h3>
+        <h3 class="section-heading" id="benefits">THE BENEFITS </h3>
         <p>This year, the big news is hidden deep inside the anodized aluminum chassis of new MacBooks, in the form of
             the Apple M1 System on a Chip (SoC)..</p>
 
@@ -150,6 +156,15 @@
 
     </section>
     <hr>
+<section id="hero">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label>Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email">
+        <input id="submit" type="submit" class="btn" value="Submit to get started">
+
+    </form>
+
+</section>
 
     <!-- <h2>@footer</h2> -->
     <footer>
